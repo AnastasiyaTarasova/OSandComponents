@@ -1,0 +1,35 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphics}
+\usepackage[pdftex]{graphicx}
+\usepackage{lscape}
+\usepackage{listings}
+\usepackage{geometry} % Меняем поля страницы 
+\geometry{left=2cm}% левое поле 
+\geometry{right=1.5cm}% правое поле 
+\geometry{top=2cm}% верхнее поле 
+\geometry{bottom=15mm}% нижнее поле
+\renewcommand{\baselinestretch}{1.5}
+\pagestyle{plain}
+\begin{document}
+\include{titlepage} % это титульный лист
+\newpage
+\tableofcontents
+\newpage
+Проанализировать инсталляцию ОС Linux,сформировать инсталлятор с минимальным набором функций. В системный редактор всего этого написать command file необходимого сброса. Можно  из оболочки user mode или свой вариант, который сделать сборку. Описание есть у  Fedora.
+
+Вначале спрашивают язык. Выбираем русский.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{res/russian}
+\end{figure}
+\section{Разметить диск}
+\section{Поднять сеть}
+\section{Поставить пакеты}
+\section{Первичные настройки}
+
+\end{document}

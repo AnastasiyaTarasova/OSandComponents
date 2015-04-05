@@ -1,0 +1,6 @@
+\select@language {russian}
+\contentsline {section}{\numberline {1}VirtualBox}{3}
+\contentsline {subsection}{\numberline {1.1}\IeC {\CYRS }\IeC {\cyro }\IeC {\cyrz }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrv }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrsh }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrery }}{3}
+\contentsline {subsection}{\numberline {1.2}\IeC {\CYRU }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyra } \IeC {\cyro }\IeC {\cyrp }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrv }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrishrt } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk }}{7}
+\contentsline {section}{\numberline {2}\IeC {\CYRD }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyru }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrv } Debian}{9}
+\contentsline {section}{\numberline {3}Bash}{9}
