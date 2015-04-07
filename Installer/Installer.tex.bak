@@ -1,0 +1,33 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphics}
+\usepackage[pdftex]{graphicx}
+\usepackage{lscape}
+\usepackage{listings}
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=2cm}% верхнее поле
+\geometry{bottom=15mm}% нижнее поле
+\renewcommand{\baselinestretch}{1.5}
+\pagestyle{plain}
+\begin{document}
+\include{titlepage} % это титульный лист
+\newpage
+\tableofcontents
+\newpage
+Проанализировать инсталляцию ОС Linux,сформировать инсталлятор с минимальным набором функций. В системный редактор всего этого написать command file необходимого сброса. Можно  из оболочки user mode или свой вариант, который сделать сборку. Описание есть у  Fedora.
+\section{Процесс загрузки Debian}
+\subsection{Программа init}
+Как и все Unix-подобные операционные системы, Debian загружается, выполняя программу init. Конфигурационный файл для init (/etc/inittab) указывает, что первый скрипт, который должен быть выполнен, - это скрипт /etc/init.d/rcS. Данный скрипт запускает все скрипты из каталога /etc/rcS.d/ по порядку или порождая подчиненные процессы с целью инициализации системы, как то проверка и монтирование файловых систем, загрузка модулей, запуск сетевых сервисов, установка системных часов и пр. Далее (для совместимости) этот скрипт выполняет файлы из каталога /etc/rc.boot/ (кроме тех, что имеют `.' в имени файла). Любые скрипты из последнего каталога обычно предназначаются для использования системным администратором, и применение их в пакетах не допускается. 
+
+\section{Разметить диск}
+\section{Поднять сеть}
+\section{Поставить пакеты}
+\section{Первичные настройки}
+
+\end{document} 
